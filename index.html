@@ -2,89 +2,51 @@
 <html>
 <head>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>CDC webpage</title>
   </head>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link href="main.css" rel="stylesheet">
 <script type="text/javascript" src="main.js"></script>
 </head>
-<body>
-
-<h1>GIST web development</h1>
-<p>--- Classroom support Program ---</p>
-<div>Prototype red. Beta1</div>
-
-<!--
-    <div class="container">
-        <div class="center">
-          <button>Test Button</button>
+  <body onload="startTime()">
+    <div class="container-fluid">
+      <div class="row">
+        <h1>GIST web development</h1>
+        <p>--- Classroom support Program ---</p>
+        <div>Prototype red. Beta1</div>
+        <p>ถ้าโปรแกรมทำงานไม่ถูกต้อง ติดต่อผู้พัฒนาเพื่อทำการแก้ไข</p>
+          <h2 id="content1">content1</h2>
         </div>
-    </div>
-    <body>
-      <div class="center">
-      <script>
-        var a =0;
-         var dt = new Date();
-         a = dt.getDay;
-         console.log(a);
-         let today = "today";
-         console.log(a);
-            if(a = 1){
-              today = 'Monday';
-            }else if( a = 2){
-              today = 'Tuesday';
-            }else if( a = 3){
-              today = 'Wednesday';
-            }else if( a = 4){
-              today = 'Thursday';
-            }else if( a = 5){
-              today = 'Friday';
-            }else if( a = 6){
-              today = 'Saturday';
-            }else if( a = 0){
-              today = 'Sunday';
-            }else {
-              today = 'ERROR';
-            }
-         document.write("To day is "+today ); 
-      </script>      
-      </div>   
-   </body>
--->
-
-<body>
-  <div>
-    <h2 id="content1">content1</h2>
-  </div>
-</body>
-
-
-
-<p> ถ้าโปรแกรมทำงานไม่ถูกต้อง ติดต่อผู้พัฒนาเพื่อทำการแก้ไข</p>
-<h1>Class ROOM</h1>
-<h2>วิชาที่เข้าเรียนตอนนี้คือ</h2>
-<p id="period">คาบ</p>
-<h2 id="theSubject">[วิชาเรียนตอนนี้]</h2>
-<h2 id="classlink"> Link </h2>
-<hr>
-<h2>คาบต่อไปเรียน</h2>
-<p id="nextperiod">คาบ</p>
-<h2 id="thenextSubject">[วิชาเรียนต่อไป]</h2>
-<h2 id="nextclasslink"> Link </h2>
-<hr>
-<p id="refcode1"> refcode </p>
-<p id="refcode2"> refcode2 </p>
-
-<body onload="startTime()">
-  <div id="codecheck"></div>
-  <div id="thecode"></div>
+      </div>
+      <div class="row">
+        <h1>Class ROOM</h1>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h2>วิชาที่เข้าเรียนตอนนี้คือ</h2>
+            <p id="period">คาบ</p>
+            <h2 id="theSubject">[วิชาเรียนตอนนี้]</h2>
+            <h2 id="classlink"> Link </h2>
+          </li>
+          <li class="list-group-item"><h2>คาบต่อไปเรียน</h2>
+            <p id="nextperiod">คาบ</p>
+            <h2 id="thenextSubject">[วิชาเรียนต่อไป]</h2>
+            <h2 id="nextclasslink"> Link </h2>
+          </li>
+          <li class="list-group-item">
+            <p id="refcode1"> refcode </p>
+            <p id="refcode2"> refcode2 </p>
+            <div id="codecheck"></div>
+            <div id="thecode"></div>
+          </li>
+        </ul>
+      </div>
   </body>
-<h1>Public BETA 1.0</h1>
-<p> พัฒนาโดย</p>
-<p> ปัญญวิชญ์  ปทุมหิรัญรักษ์</p>
-<p> ภูริพัฒณ์  มหาพรหมรักษ์</p>
-<p> ทยาภา ไทยแท้</p>
-<p> อิธิพัฒน์  ธนบดีกาญจน์</p>
-<p> ---------- ร่วมพัฒนา/สนับสนุนทุนพัฒนา ติดต่อ ปัญญวิชญ์  ปทุมหิรัญรักษ์ ----------</p>
+  <h1>Public BETA 1.0</h1>
+      <p> พัฒนาโดย</p>
+      <p> ปัญญวิชญ์  ปทุมหิรัญรักษ์</p>
+      <p> ภูริพัฒณ์  มหาพรหมรักษ์</p>
+      <p> ทยาภา ไทยแท้</p>
+
+  <p> ---------- ร่วมพัฒนา/สนับสนุนทุนพัฒนา ติดต่อ ปัญญวิชญ์  ปทุมหิรัญรักษ์ ----------</p>
 </html>
